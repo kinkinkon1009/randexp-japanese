@@ -5,7 +5,12 @@ describe Randexp::Japanese do
     Randexp::Japanese::VERSION.should_not be_nil
   end
 
-  it 'should do something useful' do
-    false.should be_true
+  describe ".randgen" do
+    it "should do generate string correctly" do
+      @randexp = Randexp::Japanese.new
+      Randexp::Japanese.hiragana({length: 10})
+    end
+
   end
+
 end

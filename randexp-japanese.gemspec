@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Randexp::Japanese::VERSION
   spec.authors       = ["Ayumu Kanechika"]
   spec.email         = ["kinkinkon1009@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.summary       = %q{Generate random string in Japanese}
+  spec.description   = %q{Generate random string in Japanese}
+  spec.homepage      = "https://github.com/kinkinkon1009/randexp-japanese"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
@@ -21,4 +21,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.5"
   spec.add_development_dependency "rake"
   spec.add_development_dependency "rspec"
+  spec.add_dependency "randexp"
 end
